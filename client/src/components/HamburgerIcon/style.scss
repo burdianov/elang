@@ -1,0 +1,41 @@
+.hamburger {
+  width: 30px;
+  height: 23px;
+
+  &::before,
+  &::after,
+  & div {
+    background-color: rgb(51, 51, 51);
+    border-radius: 1px;
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 7px 0px;
+    transition: all 0.25s ease-in-out 0s;
+  }
+}
+
+.closed {
+  &:before,
+  &:after {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  div {
+    transform: scale(1);
+  }
+}
+
+.open {
+  &:before {
+    transform: translateY(10px) rotate(135deg);
+  }
+
+  &:after {
+    transform: translateY(-10px) rotate(-135deg);
+  }
+
+  div {
+    transform: scale(0);
+  }
+}
