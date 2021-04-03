@@ -60,6 +60,28 @@ function Navbar() {
               Lessons
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink
+              to="/signin"
+              exact
+              className="nav-link"
+              activeClassName="active-menu"
+              onClick={closeMobileMenu}
+            >
+              Signin
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              to="/signup"
+              exact
+              className="nav-link"
+              activeClassName="active-menu"
+              onClick={closeMobileMenu}
+            >
+              Signup
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </>

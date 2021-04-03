@@ -14,7 +14,8 @@
   --color-accent: #f9f871;
   --color-secondary: #98f58a;
   --color-background: #ffffff;
-
+  --color-regular: #808080;
+  --color-active: #333333;
   --color-input: #e4ebf1;
   --color-input-focus: #009dff;
   --color-input-error: #f5222d;
@@ -30,6 +31,8 @@
   --text-color-hover: #333333;
   --text-color-main: #333333;
 
+
+
   --font-family: 'Open Sans', sans-serif;
 }
 
@@ -41,7 +44,7 @@
 
 body {
   margin: 0;
-  font-family: 'Open Sand', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
